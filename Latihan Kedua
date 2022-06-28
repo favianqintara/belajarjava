@@ -17,6 +17,9 @@ public class MyClass {
     public void setName (String name) {
         this.name = name;
     }
+     public void setName (String name) {
+        this.nim = nim;
+    }
 
     public int getAge () {
         return age;
