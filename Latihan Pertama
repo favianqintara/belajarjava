@@ -1,0 +1,28 @@
+package src; 
+import java.util.Scanner; 
+import java.text.DecimalFormat; 
+public class praktikumi_1 { 
+	public static void main(String[]) args) {
+		System.out.printIn("Nama: Muhammad Ervanzha"); 
+		System.out.println("NIM: 064002100012"); 
+		System.out.printin("Rabu, 6 April 2022"); 
+		System.out.println(" "); 
+
+		try (Scanner input - new Scanner(Systen.in)){ 
+			int x1,y1,x2,y2; 
+			double hasil; 
+			System.out.println("nilai x1: "); 
+			x1 - input.nextInt(); 
+			System.out.printin("nilai y1: "); 
+			yl - input.nextInt(); 
+			System.out.printin("nilai x2: "); 
+			x2 - input.nextInt(); 
+			System.out.println("nilai y2: "): 
+			y2 - input.nextInt(); 
+			hasil - Hath. sqrt((x2-x1) (x2-x1)+(y2-y1)*(y2-y1)); 
+			DecimalFormat df - new DecinalFormat("#.##"); 
+			System.out.println("Jarak antara titik ("+x1+","+y1+") dan ("+x2+","+y2+") adalah "+df.format(hasil));
+        }
+|
+    }
+}
